@@ -1,0 +1,9 @@
+---
+applications:
+- name: clientdummy
+  memory: 1G
+  instances: 2
+  path: ./target/clientdummy-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  services:
+  - rabbitmq

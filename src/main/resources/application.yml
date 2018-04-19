@@ -1,0 +1,10 @@
+endpoints:
+  enabled: false
+  info:
+    enabled: true
+  health:
+    enabled: true
+  metrics:
+    enabled: true
+  refresh:
+    enabled: true
